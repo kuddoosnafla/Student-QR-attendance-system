@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Register</title>
+		<link rel="stylesheet" type="text/css" href="reg.css">
+		<style>
+			body {
+	            background: url('logo1.jfif');
+	            background-blend-mode: multiply,multiply;
+	            background-attachment: fixed;
+	            background-repeat: no-repeat;
+	            background-size: cover;
+}
+
+		</style>
+	</head>
+	<body>
+
+		
+		
+		<div class="form-box">
+			<div class="button-box">
+			
+				<div id="btn"></div>
+				
+				<button type="button" class="toggle-btn" onclick="Register()">REGISTER</button>
+			</div>
+			
+			
+			<form id="Register" class="input-group"  action="reg.php" method="post">
+
+				        <input type="text" class="input-field" placeholder="Name" name="name"required>
+
+						<input type="email" class="input-field" placeholder="E-mail id" name="email" required>
+
+						<input type="password" class="input-field" placeholder="password" name="password"required>
+
+						<input type="text" class="input-field" placeholder="Phone"name="phone" required>
+						
+						<input type="text" class="input-field" placeholder="Address"name="address" required>
+
+				
+
+						<input type="checkbox" class="check-box"><span>I agree to the terms and condition</span>
+
+						<button  type="submit" class="submit-btn">Sign up</button>
+
+						<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Already have an account?&nbsp;&nbsp;<a href="login.html"><b>Login here</b> </a></p>
+
+						
+				
+			</form>
+		</div>
+
+		
+	
+	
+	</body>
+	</html>
